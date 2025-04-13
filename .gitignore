@@ -18,6 +18,12 @@ _autosave-*
 fp-info-cache
 ~*.lck
 \#auto_saved_files#
+backups/*
+production/*
+
+# Plugin Config Files
+board2pdf.config.ini
+fabrication-toolkit-options.json
 
 # Netlist files (exported from Eeschema)
 *.net
