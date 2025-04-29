@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": true,
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -62,7 +62,16 @@
       "drc_exclusions": [
         "lib_footprint_mismatch|103500000|47500000|89efe179-e83b-40db-abd4-3fc7739e57ac|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|103500000|96500000|7e8d827e-a7ed-44d4-95fc-a91af7cef820|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|106600000|56600000|96113518-9f23-4cba-814e-26ae557348b7|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|106600000|66900000|8563ccf7-c560-4306-a87b-73296c90f42b|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|106600000|77200000|dcd79ef3-d789-4f6f-8237-4fd4f809fe33|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|106600000|87500000|d82a7f6c-d248-409d-90ff-380cf272ef0f|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|115137500|85400000|d0a9070e-d32e-4273-b928-e0c246e06a0f|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|115200000|55500000|f6abea48-f53d-4af9-bd8d-bb6fb91dff9d|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|115200000|65000000|267022ff-4e37-4c85-8242-32fa85740e43|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|115200000|75300000|8895e416-a6b0-4524-befb-85ae42bd8e6b|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|132470000|47480000|00000000-0000-0000-0000-00005a793e9f|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|148500000|75400000|68114dbb-ba1a-4cc3-9e49-0d7ec66560d5|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|155397500|98900000|651675ab-9c4d-451e-83bf-dc5b8fbb0236|00000000-0000-0000-0000-000000000000",
         "lib_footprint_mismatch|161500000|47500000|0beff73c-ea66-46e4-96f9-c0c7195d2160|00000000-0000-0000-0000-000000000000"
       ],
@@ -154,7 +163,7 @@
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -165,7 +174,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -176,7 +185,7 @@
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
+          "td_curve_segcount": 5,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -226,6 +235,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.3,
+          "drill": 0.6
         }
       ],
       "zones_allow_external_fillets": false,
@@ -624,6 +637,10 @@
     [
       "05b1ff8c-c54a-4fdf-8a0b-8d4e10c8ba9f",
       "motors"
+    ],
+    [
+      "5b34f104-7811-42d1-8210-ed1e7a27372c",
+      "RP2354A"
     ]
   ],
   "text_variables": {}
