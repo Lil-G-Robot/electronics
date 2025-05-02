@@ -4272,6 +4272,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 34.29) (xy 97.79 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26e34ae7-14b8-4634-8292-41b8197956b4")
+	)
+	(wire
+		(pts
 			(xy 68.58 144.78) (xy 93.98 144.78)
 		)
 		(stroke
@@ -4749,6 +4759,16 @@
 			(type solid)
 		)
 		(uuid "707b993a-397a-40ee-bc4e-978ea0af003d")
+	)
+	(wire
+		(pts
+			(xy 97.79 19.05) (xy 97.79 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71617a80-3370-4732-8b07-420a172af5df")
 	)
 	(wire
 		(pts
@@ -6332,6 +6352,17 @@
 		)
 		(uuid "2487cb36-6e75-4c0f-8d4c-390e01ae8981")
 	)
+	(label "~{GATE_EN}"
+		(at 97.79 19.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2a7bae3b-6162-4f9d-a39c-7f270887a0bb")
+	)
 	(label "M4_DIR"
 		(at 175.26 58.42 0)
 		(fields_autoplaced yes)
@@ -6408,6 +6439,17 @@
 			(justify left bottom)
 		)
 		(uuid "69b19270-ea22-4351-9735-0fd79797934e")
+	)
+	(label "~{GATE_EN}"
+		(at 97.79 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a380bab-2b00-4c6d-8e8d-ccc7dc8ba749")
 	)
 	(label "M4_PWM"
 		(at 175.26 55.88 0)
@@ -10011,32 +10053,33 @@
 	)
 	(symbol
 		(lib_id "Device:Q_PMOS_GDS")
-		(at 97.79 30.48 90)
+		(at 97.79 25.4 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f81686e2-e686-4cdd-b709-2dd5d341e2f9")
 		(property "Reference" "Q101"
-			(at 97.79 21.59 90)
+			(at 98.552 21.082 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "STD26P3LLH6"
-			(at 97.79 24.13 90)
+			(at 98.552 23.114 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
-			(at 95.25 25.4 0)
+			(at 100.33 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10045,7 +10088,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 30.48 0)
+			(at 97.79 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10054,7 +10097,7 @@
 			)
 		)
 		(property "Description" "P-MOSFET transistor, gate/drain/source"
-			(at 97.79 30.48 0)
+			(at 97.79 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10341,44 +10384,6 @@
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(page "2")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 161.29 80.01)
-		(size 12.7 6.35)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "5b34f104-7811-42d1-8210-ed1e7a27372c")
-		(property "Sheetname" "RP2354A"
-			(at 161.29 79.2984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "mcu.kicad_sch"
-			(at 161.29 86.9446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "lil-G-electrical"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(page "3")
 				)
 			)
 		)
