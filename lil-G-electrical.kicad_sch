@@ -3321,6 +3321,12 @@
 		(uuid "014016b6-2314-4d65-8a46-a98a7a3eede1")
 	)
 	(junction
+		(at 22.86 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09d0160d-cf32-4c25-904f-312a0b7bd718")
+	)
+	(junction
 		(at 35.56 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3331,6 +3337,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13b702db-7315-497d-bf26-5216f78dc7c9")
+	)
+	(junction
+		(at 30.48 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "199d936a-68bf-424c-99e6-f93d9215db56")
 	)
 	(junction
 		(at 50.8 91.44)
@@ -3525,6 +3537,12 @@
 		(uuid "d63b3089-cd42-4d4d-99eb-c75ad7e64fdd")
 	)
 	(junction
+		(at 38.1 184.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ebe4d621-d2ff-4eb5-b3d8-7e1658e74832")
+	)
+	(junction
 		(at 86.36 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3599,6 +3617,16 @@
 			(type default)
 		)
 		(uuid "02939c10-dbc4-434e-8bdc-1db97746d6bd")
+	)
+	(wire
+		(pts
+			(xy 30.48 182.88) (xy 30.48 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03665c9c-a6b1-46fe-82d8-07626d1e8768")
 	)
 	(wire
 		(pts
@@ -4082,6 +4110,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 184.15) (xy 22.86 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40831b42-86b0-4fb5-be1a-15d879ee91e7")
+	)
+	(wire
+		(pts
 			(xy 113.03 27.94) (xy 113.03 35.56)
 		)
 		(stroke
@@ -4259,6 +4297,16 @@
 			(type default)
 		)
 		(uuid "56d9d447-c6b6-4839-82b2-fc949123ddd8")
+	)
+	(wire
+		(pts
+			(xy 38.1 184.15) (xy 38.1 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e1a2d5-a70b-4bf0-902d-0ae8245f9bad")
 	)
 	(wire
 		(pts
@@ -4562,6 +4610,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 184.15) (xy 45.72 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82a73bc4-bd50-40fe-834e-171b96b8547c")
+	)
+	(wire
+		(pts
 			(xy 217.17 101.6) (xy 219.71 101.6)
 		)
 		(stroke
@@ -4812,6 +4870,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 184.15) (xy 45.72 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2f6aae2-115e-4a1e-9cd4-07247bca39f8")
+	)
+	(wire
+		(pts
 			(xy 129.54 142.24) (xy 129.54 143.51)
 		)
 		(stroke
@@ -4859,6 +4927,16 @@
 			(type default)
 		)
 		(uuid "a606fdb7-28ca-4942-a977-e8af08d805c2")
+	)
+	(wire
+		(pts
+			(xy 22.86 184.15) (xy 22.86 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a88590af-750c-47b5-83c6-e64553e8462e")
 	)
 	(wire
 		(pts
@@ -4949,6 +5027,16 @@
 			(type default)
 		)
 		(uuid "b2a865d2-bb4d-4fa1-8920-bf6dd5ed8aa9")
+	)
+	(wire
+		(pts
+			(xy 22.86 184.15) (xy 22.86 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b62f2df7-5c95-44ed-85dc-c7804f7d3534")
 	)
 	(wire
 		(pts
@@ -5519,6 +5607,16 @@
 			(type default)
 		)
 		(uuid "fa3a5337-4fba-45d3-9d19-d9a4a894a045")
+	)
+	(wire
+		(pts
+			(xy 30.48 184.15) (xy 38.1 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcbf9403-4bc2-47a5-8b45-b2fbbea27ece")
 	)
 	(wire
 		(pts
@@ -6971,7 +7069,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "05158b45-9290-4955-a0cb-f4dfbebdaad1")
-		(property "Reference" "R11"
+		(property "Reference" "R13"
 			(at 229.87 141.224 90)
 			(effects
 				(font
@@ -7023,7 +7121,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R11")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -7387,15 +7485,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 25.4 60.96 0)
+		(at 30.48 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2728fbd0-ec52-445a-a03f-c422ebe17354")
-		(property "Reference" "TP2"
-			(at 26.543 58.293 0)
+		(property "Reference" "TP7"
+			(at 31.623 180.213 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7404,7 +7502,7 @@
 			)
 		)
 		(property "Value" "5001"
-			(at 26.543 60.325 0)
+			(at 31.623 182.245 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7413,7 +7511,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
-			(at 30.48 60.96 0)
+			(at 35.56 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7422,7 +7520,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 30.48 60.96 0)
+			(at 35.56 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7431,7 +7529,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 25.4 60.96 0)
+			(at 30.48 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7445,7 +7543,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP2")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -7460,7 +7558,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2762f761-09c1-4dc2-ae00-e351ff9cbaac")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR016"
 			(at 91.44 140.97 0)
 			(effects
 				(font
@@ -7510,7 +7608,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR017")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7594,7 +7692,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c2d6a4e-64d4-4273-a935-44155099ac5e")
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 128.27 97.282 0)
 			(effects
 				(font
@@ -7643,7 +7741,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -7792,7 +7890,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30950cd2-83a5-4650-a3db-d50bf7ab8ef0")
-		(property "Reference" "R12"
+		(property "Reference" "R14"
 			(at 257.81 141.224 90)
 			(effects
 				(font
@@ -7844,7 +7942,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R12")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8127,7 +8225,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "37060bc3-93a2-4fba-9900-c4f1639be2e9")
-		(property "Reference" "TP5"
+		(property "Reference" "TP3"
 			(at 169.926 91.44 90)
 			(effects
 				(font
@@ -8176,7 +8274,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP5")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -8398,7 +8496,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42e056c7-c165-4f56-8e3d-8b8347f88363")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR010"
 			(at 143.51 90.17 0)
 			(effects
 				(font
@@ -8446,7 +8544,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR011")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -8529,7 +8627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49ea1ad4-79b0-4b76-9a26-cfb8eff83a60")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR012"
 			(at 22.86 95.25 0)
 			(effects
 				(font
@@ -8579,7 +8677,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR013")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -8670,7 +8768,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a7ce74d-0958-4db1-a6e9-dbbf85574ce7")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 204.47 141.224 90)
 			(effects
 				(font
@@ -8722,7 +8820,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R10")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -8865,7 +8963,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "530002f6-a6c6-4150-ad6d-e915c35d1f97")
-		(property "Reference" "R9"
+		(property "Reference" "R11"
 			(at 179.07 150.876 90)
 			(effects
 				(font
@@ -8917,7 +9015,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R9")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -8932,7 +9030,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "574571d2-5736-48a1-a94d-9d4825cf4008")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR015"
 			(at 68.58 121.92 0)
 			(effects
 				(font
@@ -8980,7 +9078,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR016")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -9126,15 +9224,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 25.4 60.96 0)
+		(at 22.86 185.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "6294687e-e460-45b3-859f-4eafc3a57269")
-		(property "Reference" "#PWR08"
-			(at 25.4 67.31 0)
+		(property "Reference" "#PWR027"
+			(at 22.86 191.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9143,7 +9241,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 25.5143 65.2844 0)
+			(at 22.9743 189.7444 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9151,7 +9249,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 60.96 0)
+			(at 22.86 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9159,7 +9257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 60.96 0)
+			(at 22.86 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9167,7 +9265,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 25.4 60.96 0)
+			(at 22.86 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9181,7 +9279,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR08")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -9477,7 +9575,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "707dde27-548a-4a5d-98a0-a5fc7625f189")
-		(property "Reference" "R13"
+		(property "Reference" "R9"
 			(at 96.774 143.764 0)
 			(effects
 				(font
@@ -9531,7 +9629,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R13")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -9942,7 +10040,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8335b270-321b-4185-95d2-3aba659ef962")
-		(property "Reference" "R14"
+		(property "Reference" "R10"
 			(at 134.874 145.034 0)
 			(effects
 				(font
@@ -9996,7 +10094,73 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R14")
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 22.86 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8384fdc1-118b-4722-843a-7e6cc2096425")
+		(property "Reference" "TP6"
+			(at 24.003 180.213 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5001"
+			(at 24.003 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 27.94 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 27.94 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 22.86 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c00bbd4-23f8-48b5-956d-d63eeb5d700e")
+		)
+		(instances
+			(project "lil-G-electrical"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -10064,6 +10228,72 @@
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 45.72 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89d243db-7fb4-4fbd-b38b-5f7e40a7b747")
+		(property "Reference" "TP9"
+			(at 46.863 180.213 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5001"
+			(at 46.863 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 50.8 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 50.8 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 45.72 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "662c1ce2-2f61-4ba3-be63-4d0c727848b2")
+		)
+		(instances
+			(project "lil-G-electrical"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -10429,7 +10659,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "94354b4d-fc28-4f88-8003-eab0ccd1b152")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR025"
 			(at 91.44 165.1 0)
 			(effects
 				(font
@@ -10477,7 +10707,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR035")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -10704,7 +10934,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "977f66e9-13f0-413f-8176-64c7e3758862")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR011"
 			(at 260.35 96.52 0)
 			(effects
 				(font
@@ -10752,7 +10982,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR012")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -10768,7 +10998,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97e130a1-60e2-456d-9588-ed1d1293ed64")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 87.63 73.66 0)
 			(effects
 				(font
@@ -10818,7 +11048,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -10833,7 +11063,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97ff2186-1f5a-4212-b5e1-2b8a2b137b7b")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR013"
 			(at 128.27 95.25 0)
 			(effects
 				(font
@@ -10881,7 +11111,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR014")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -10896,7 +11126,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9b487772-3653-4e9b-bd12-446efe84a320")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 129.54 146.05 0)
 			(effects
 				(font
@@ -10946,7 +11176,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -10961,7 +11191,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9d4c274b-ac8a-43c8-b2e8-c39b464cb500")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 27.94 144.78 0)
 			(effects
 				(font
@@ -11011,7 +11241,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -11374,7 +11604,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c482b7b8-f992-483d-8672-6540fcf2aec7")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR014"
 			(at 143.51 118.11 0)
 			(effects
 				(font
@@ -11422,7 +11652,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR015")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11623,6 +11853,72 @@
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 38.1 182.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d2b295b3-8e52-48a2-bf05-3ccd5d3849b1")
+		(property "Reference" "TP8"
+			(at 39.243 180.213 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5001"
+			(at 39.243 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Keystone_5000-5004_Miniature"
+			(at 43.18 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 38.1 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff4efbb0-83ed-477e-9bf0-136dd5789c78")
+		)
+		(instances
+			(project "lil-G-electrical"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -11838,7 +12134,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e3034c32-e9d6-4932-b6b7-7d450a29b841")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR08"
 			(at 260.35 67.31 0)
 			(effects
 				(font
@@ -11886,7 +12182,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR09")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -12039,7 +12335,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f33355d0-10c2-4fe3-907a-bc9116b25747")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 39.37 163.83 0)
 			(effects
 				(font
@@ -12087,7 +12383,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12322,7 +12618,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fab8a8c7-e630-4ddd-a13b-9137230b755e")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR019"
 			(at 74.93 147.32 0)
 			(effects
 				(font
@@ -12372,7 +12668,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR024")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -12454,7 +12750,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ff176fa6-0668-4b3c-b3bf-241f18b9e126")
-		(property "Reference" "TP6"
+		(property "Reference" "TP5"
 			(at 74.93 149.098 0)
 			(effects
 				(font
@@ -12503,7 +12799,7 @@
 		(instances
 			(project "lil-G-electrical"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP6")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -12599,7 +12895,7 @@
 			(color 255 255 194 1.0000)
 		)
 		(uuid "370f3da0-8967-4c65-8a1f-46aebfe65443")
-		(property "Sheetname" "bmi160"
+		(property "Sheetname" "LSMDSOX"
 			(at 259.08 108.5084 0)
 			(effects
 				(font
