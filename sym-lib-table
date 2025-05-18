@@ -154,4 +154,5 @@
   (lib (name "rp2350a-qfn60")(type "KiCad")(uri "C:/Users/kelvi/projects/lilG/RP2350_KiCad/rp2350a-qfn60.kicad_sym")(options "")(descr ""))
   (lib (name "rp2350b-qfn80")(type "KiCad")(uri "C:/Users/kelvi/projects/lilG/RP2350_KiCad/rp2350b-qfn80.kicad_sym")(options "")(descr ""))
   (lib (name "swwitches")(type "KiCad")(uri "${KIPRJMOD}/lib/lilG_symbols/swwitches.kicad_sym")(options "")(descr ""))
+  (lib (name "Espressif")(type "KiCad")(uri "${KIPRJMOD}/lib/espressif-kicad-library/symbols/Espressif.kicad_sym")(options "")(descr ""))
 )
